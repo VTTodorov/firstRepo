@@ -1,0 +1,23 @@
+<template name="main_vertical">
+    <main class="main-vertical">
+        <header>
+            {{>Template.dynamic template=header1}}
+            {{>Template.dynamic template=header2}}
+            {{>Template.dynamic template=header3}}
+        </header>
+        <div class="uk-grid uk-grid-collapse">
+            <div class="uk-width-1-4">
+                {{>Template.dynamic template=main_c1}}
+            </div>
+            <div class="uk-width-3-4">
+                {{>Template.dynamic template=main_c2}}
+                {{>Template.dynamic template=main_c3}}
+            </div>
+        </div>
+        <footer>
+            {{>Template.dynamic template=footer1}}
+            {{>Template.dynamic template=footer2}}
+            {{>Template.dynamic template=footer3}}
+        </footer>
+    </main>
+</template>

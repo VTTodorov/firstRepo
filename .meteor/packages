@@ -1,0 +1,94 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+# BASE
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+templating
+session
+jquery
+tracker
+es5-shim
+ecmascript
+kadira:flow-router
+kadira:blaze-layout
+ddp
+http
+cfs:standard-packages
+cfs:filesystem
+arillo:flow-router-helpers
+meteorhacks:fast-render
+#meteorhacks:kadira
+#kadira:debug
+
+
+# COLLECTIONS
+aldeed:collection2
+jcbernack:reactive-aggregate
+cottz:publish-relations
+reywood:publish-composite
+dburles:collection-helpers
+matb33:collection-hooks
+patrickml:collection-methods
+easy:search
+srp
+sha
+meteorhacks:subs-manager
+
+# UI
+mrt:flash-messages
+fortawesome:fontawesome
+keepnox:perfect-scrollbar
+linto:jquery-ui
+mquandalle:jquery-ui-drag-drop-sort
+yourcontainer:meteor-avatar
+dispatch:avatar
+jeremy:selectize
+pcel:loading
+semantic:ui
+flemay:less-autoprefixer
+ryanwu:meteor-gridstack
+hydraorc:pickmeup
+zcurtis:uikit
+new3rs:html2canvas
+teamon:tinymce
+jackyqiu:meteor-jquery-nicescroll
+rochal:slimscroll
+perak:codemirror
+azeirah:marked
+summernote:summernote
+jsplumb:jsplumb
+malkesh:trumbowyg
+d3js:d3
+sujith3g:jstree
+
+# HELPERS
+momentjs:moment
+reactive-var
+underscore
+check
+chipcastle:countries
+ephemer:reactive-bool
+standard-minifier-css
+standard-minifier-js
+frozeman:template-var
+mizzao:autocomplete
+clinical:migrations
+mrt:external-file-loader
+elementrem:template-var
+settinghead:auto-nprogress
+
+#ACCOUNTS
+service-configuration
+accounts-base
+accounts-password
+accounts-facebook
+juliancwirko:s-alert
+juliancwirko:s-alert-flip
+tinytest
+mrgalaxy:stripe

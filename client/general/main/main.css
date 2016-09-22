@@ -1,0 +1,10 @@
+body{
+/*    min-width: 1260px;*/
+  overflow: hidden;
+  font-family: "Roboto Condensed";
+
+}
+main {
+  background: url('/rust.jpg');
+  height: 105vh;
+}

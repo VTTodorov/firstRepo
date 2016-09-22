@@ -1,0 +1,14 @@
+.main-menu .menu{
+  width: 350px !important;
+  margin-left: 25%;
+  margin-top: 50% !important;
+  border: 0 !important;
+  border-radius: 5px;
+  background: rgba(255, 0, 0, 0) !important;
+}
+.main-menu .menu .item {
+  font-size: 1.5em;
+  background-color: rgba(61, 65, 66, 0.7) !important;
+  text-shadow: -1px 0 teal, 0 1px teal, 1px 0 teal, 0 -1px teal;
+  font-weight: bold;
+}

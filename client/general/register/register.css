@@ -1,0 +1,25 @@
+.register {
+  font-family: "Roboto";
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #3D4142;
+}
+.register label {
+  color: white !important;
+  font-size: 1.5 !important;
+}
+.register input {
+  background: lightgrey !important;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#signin{
+  float: right;
+}

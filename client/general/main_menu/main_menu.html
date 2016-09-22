@@ -1,0 +1,42 @@
+<template name="main_menu">
+  <div class="main-menu">
+    <div class="ui vertical menu" id="#main_menu">
+      {{#if home}}
+      <a class="teal item active" id="home">
+        Home
+      </a>
+      {{else}}
+      <a class="item" id="home">
+        Home
+      </a>
+      {{/if}}
+      {{#if login}}
+      <a class="teal item active" id="login">
+        Log In
+      </a>
+      {{else}}
+      <a class="item" id="login">
+        Log In
+      </a>
+      {{/if}}
+      {{#if register}}
+      <a class="teal item active" id="register">
+        Register
+      </a>
+      {{else}}
+      <a class="item" id="register">
+        Register
+      </a>
+      {{/if}}
+      {{#if info}}
+      <a class="teal item active" id="info">
+        Server info
+      </a>
+      {{else}}
+      <a class="item" id="info">
+        Server info
+      </a>
+      {{/if}}
+    </div>
+  </div>
+</template>
