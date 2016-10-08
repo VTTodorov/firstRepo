@@ -27,8 +27,8 @@ Users.methods({
       }
     });
   },
-  login: function (usernameOrPassword, password) {
-    Meteor.loginWithPassword(usernameOrPassword, password, function (err) {
+  login: function (usernameOrEmail, password) {
+    Meteor.loginWithPassword(usernameOrEmail, password, function (err) {
       if (err) {
         FlashMessages.sendError(err.reason);
         return err;

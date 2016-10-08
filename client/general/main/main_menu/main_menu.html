@@ -10,24 +10,27 @@
         Home
       </a>
       {{/if}}
-      {{#if login}}
-      <a class="teal item active" id="login">
-        Log In
-      </a>
-      {{else}}
-      <a class="item" id="login">
-        Log In
-      </a>
-      {{/if}}
-      {{#if register}}
-      <a class="teal item active" id="register">
-        Register
-      </a>
-      {{else}}
-      <a class="item" id="register">
-        Register
-      </a>
-      {{/if}}
+      {{#unless isLoggedIn}}
+        {{#if login}}
+        <a class="teal item active" id="login">
+          Log In
+        </a>
+        {{else}}
+        <a class="item" id="login">
+          Log In
+        </a>
+        {{/if}}
+
+        {{#if register}}
+        <a class="teal item active" id="register">
+          Register
+        </a>
+        {{else}}
+        <a class="item" id="register">
+          Register
+        </a>
+        {{/if}}
+      {{/unless}}
       {{#if info}}
       <a class="teal item active" id="info">
         Server info

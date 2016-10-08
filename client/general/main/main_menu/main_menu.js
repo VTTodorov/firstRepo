@@ -32,6 +32,9 @@ Template.main_menu.helpers({
     }
 
     return false;
+  },
+  isLoggedIn: function () {
+    return Meteor.userId(); 
   }
 });
 

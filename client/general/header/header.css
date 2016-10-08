@@ -2,12 +2,13 @@ body {
   margin: 0;
 }
 .main-header {
-  position: absolute;
+  background-color: #1E2020;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   z-index: 1;
 }
@@ -16,4 +17,8 @@ body {
   font-size: 30px;
   font-weight: bold;
   color: white;
+}
+.main-header #logo{
+  height: 100px;
+  width: 200px;
 }

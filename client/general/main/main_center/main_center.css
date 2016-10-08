@@ -1,0 +1,7 @@
+.main_center{
+  height: 70vh;
+  width: 50vw;
+  background-color: rgba(30,32,32,0.4);
+  display: flex;
+  margin: 150px 0 auto;
+}

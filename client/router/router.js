@@ -4,6 +4,7 @@ FlowRouter.route('/',{
     BlazeLayout.render('main',{
       header1: 'header',
       left_menu: 'main_menu',
+      main: 'main_center'
     });
   }
 });

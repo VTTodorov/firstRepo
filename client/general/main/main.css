@@ -6,5 +6,6 @@ body{
 }
 main {
   background: url('/rust.jpg');
+  background-size: cover;
   height: 105vh;
 }
